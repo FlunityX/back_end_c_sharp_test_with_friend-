@@ -6,25 +6,31 @@ using back_end_c_sharp_test_with_friend_.Entities;
 namespace back_end_c_sharp_test_with_friend_.Controllers;
 [ApiController]
 [Route("[controller]")]
-public class CthdsController: ControllerBase
+public class SanPhamController: ControllerBase
 {
     private readonly DbAa8167Nguyenmanh1203Context _context;
-        public CthdsController(DbAa8167Nguyenmanh1203Context ctx)
+        public SanPhamController(DbAa8167Nguyenmanh1203Context ctx)
         {
             _context = ctx;
         }
         [HttpGet]   
         public IActionResult GetAll()
         {
-            return Ok(_context.Cthds.ToList());
+            return Ok(_context.SanPhams.ToList());
             //var nhacungcaps = _context.SanPhams.ToList();
             //return Ok(nhacungcaps);
         }
-        [HttpPost] 
-        public async Task<ActionResult<Cthd>> ThemMaHD(Cthd MaHD)
+        [HttpGet("{MaSP}")]
+        public async Task<ActionResult<SanPham>> GetSPbyMaSP(string MaSP)
         {
-            _context.Cthds.Add(MaHD);
-            await _context.SaveChangesAsync();
-            return Ok(_context.Cthds.ToList());
+             var sp = await _context.SanPhams.FindAsync(MaSP);
+            if (sp== null)
+            {
+                return NotFound();
+            }
+            return sp;
         }
+        
+
+        
 }

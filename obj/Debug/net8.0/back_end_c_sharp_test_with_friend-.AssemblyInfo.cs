@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("back_end_c_sharp_test_with_friend-")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0a4e1317873bbc266fd3d40806024edd04cb8b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8669a8151df3123c5122ba692c35eb607ea5a1e")]
 [assembly: System.Reflection.AssemblyProductAttribute("back_end_c_sharp_test_with_friend-")]
 [assembly: System.Reflection.AssemblyTitleAttribute("back_end_c_sharp_test_with_friend-")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
