@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
-namespace back_end_c_sharp_test_with_friend_.Entities;
+namespace quan_ly_ban_hang.Entities;
 
 public partial class TblNhanVien
 {
@@ -18,6 +19,6 @@ public partial class TblNhanVien
     public DateTime? NgaySinh { get; set; }
 
     public int? MaKv { get; set; }
-
+    [JsonIgnore]
     public virtual TblKhuVuc? MaKvNavigation { get; set; }
 }
