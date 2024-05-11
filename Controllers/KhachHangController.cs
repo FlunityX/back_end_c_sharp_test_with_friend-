@@ -31,7 +31,7 @@ public class KhachHangController : ControllerBase
         var sp = await _context.TblKhaches.FindAsync(MaKH);
         if (sp == null)
         {
-            return NotFound();
+            return NotFound(" ko có thông tin khách hàng có mã khác hàng bạn vừa nhập . Vui lòng nhập lại");
         }
         return sp;
     }
@@ -53,12 +53,12 @@ public class KhachHangController : ControllerBase
 
         if (khachHang == null)
         {
-            return NotFound();
+            return NotFound("ko tồn tại mã khách hàng trên cơ sở dữ liệu , vui lòng nhập lại");
         }
 
         _context.TblKhaches.Remove(khachHang);
         await _context.SaveChangesAsync();
-        return Ok();
+        return Ok("xoá khách hàng thành công");
     }
 
     [HttpPut()]
@@ -68,7 +68,7 @@ public class KhachHangController : ControllerBase
             
             if (MaKhachhang!= khach.MaKhach)
             {
-                return BadRequest();
+                return BadRequest("vui lòng nhập 2 Mã khách hàng giống nhau để sửa");
             }
         
         _context.Entry(khach).State = EntityState.Modified;
@@ -80,7 +80,7 @@ public class KhachHangController : ControllerBase
             {
                 if (!makhachhangExists(MaKhachhang))
                 {
-                    return NotFound();
+                    return NotFound(" ko tồn tại mã khách hàng đó , nhập lại");
                 }
                 else
                 {
@@ -102,7 +102,7 @@ public class KhachHangController : ControllerBase
 
         if (khachHang == null)
         {
-            return NotFound();
+            return NotFound("vui lòng nhập đúng ");
         }
 
         khachPatchDocument.ApplyTo(khachHang, ModelState);
