@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace back_end_c_sharp_test_with_friend_.Entities;
+namespace quan_ly_ban_hang.Entities;
 
 public partial class DbAa8167Nguyenmanh1203Context : DbContext
 {
@@ -15,13 +15,7 @@ public partial class DbAa8167Nguyenmanh1203Context : DbContext
     {
     }
 
-    public virtual DbSet<Cthd> Cthds { get; set; }
-
-    public virtual DbSet<HoaDon> HoaDons { get; set; }
-
-    public virtual DbSet<KhachHang> KhachHangs { get; set; }
-
-    public virtual DbSet<SanPham> SanPhams { get; set; }
+   
 
     public virtual DbSet<TblChatLieu> TblChatLieus { get; set; }
 
@@ -39,101 +33,7 @@ public partial class DbAa8167Nguyenmanh1203Context : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Cthd>(entity =>
-        {
-            entity.HasKey(e => e.SoHd).HasName("PK__CTHD__BC3CAB5735338A85");
-
-            entity.ToTable("CTHD");
-
-            entity.Property(e => e.SoHd)
-                .ValueGeneratedNever()
-                .HasColumnName("SoHD");
-            entity.Property(e => e.Gia).HasColumnType("decimal(18, 0)");
-            entity.Property(e => e.MaHd)
-                .HasMaxLength(5)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasColumnName("MaHD");
-            entity.Property(e => e.MaSp)
-                .HasMaxLength(5)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasColumnName("MaSP");
-
-            entity.HasOne(d => d.MaHdNavigation).WithMany(p => p.Cthds)
-                .HasForeignKey(d => d.MaHd)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CTHD__MaHD__22751F6C");
-
-            entity.HasOne(d => d.MaSpNavigation).WithMany(p => p.Cthds)
-                .HasForeignKey(d => d.MaSp)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__CTHD__MaSP__236943A5");
-        });
-
-        modelBuilder.Entity<HoaDon>(entity =>
-        {
-            entity.HasKey(e => e.MaHd).HasName("PK__HoaDon__2725A6E056ED7964");
-
-            entity.ToTable("HoaDon");
-
-            entity.Property(e => e.MaHd)
-                .HasMaxLength(5)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasColumnName("MaHD");
-            entity.Property(e => e.MaKh)
-                .HasMaxLength(5)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasColumnName("MaKH");
-            entity.Property(e => e.NgayHd)
-                .HasColumnType("date")
-                .HasColumnName("NgayHD");
-            entity.Property(e => e.TriGia).HasColumnType("decimal(18, 0)");
-
-            entity.HasOne(d => d.MaKhNavigation).WithMany(p => p.HoaDons)
-                .HasForeignKey(d => d.MaKh)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__HoaDon__MaKH__1F98B2C1");
-        });
-
-        modelBuilder.Entity<KhachHang>(entity =>
-        {
-            entity.HasKey(e => e.MaKh).HasName("PK__KhachHan__2725CF1E3C9B1FC9");
-
-            entity.ToTable("KhachHang");
-
-            entity.Property(e => e.MaKh)
-                .HasMaxLength(5)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasColumnName("MaKH");
-            entity.Property(e => e.DiaChi).HasMaxLength(255);
-            entity.Property(e => e.HoTen).HasMaxLength(40);
-            entity.Property(e => e.Sdt)
-                .HasMaxLength(20)
-                .IsUnicode(false)
-                .HasColumnName("SDT");
-        });
-
-        modelBuilder.Entity<SanPham>(entity =>
-        {
-            entity.HasKey(e => e.MaSp).HasName("PK__SanPham__2725081C0F3E2081");
-
-            entity.ToTable("SanPham");
-
-            entity.Property(e => e.MaSp)
-                .HasMaxLength(5)
-                .IsUnicode(false)
-                .IsFixedLength()
-                .HasColumnName("MaSP");
-            entity.Property(e => e.Gia).HasColumnType("decimal(18, 0)");
-            entity.Property(e => e.TenSp)
-                .HasMaxLength(40)
-                .HasColumnName("TenSP");
-        });
-
+       
         modelBuilder.Entity<TblChatLieu>(entity =>
         {
             entity.HasKey(e => e.MaChatLieu);
