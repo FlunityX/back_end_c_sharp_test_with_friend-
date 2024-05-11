@@ -3,44 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:controllers\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\tblchatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\tblchatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\dbaa8167nguyenmanh1203context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\dbaa8167nguyenmanh1203context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\tblkhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\tblkhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\tblhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\tblhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:controllers\\hanghoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\tblnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\tblnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\tblchatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\tblchatlieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\tblkhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\tblkhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\tblkhuvuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\tblkhuvuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\tblhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\tblhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:khachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|c:\\users\\administrator\\downloads\\quan_ly_ban_hang\\entities\\dbaa8167nguyenmanh1203context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B765E5B-209A-4245-A360-1B60CB207EB2}|back_end_c_sharp_test_with_friend-.csproj|solutionrelative:entities\\dbaa8167nguyenmanh1203context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,28 +78,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "nhanvienController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Controllers\\nhanvienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\nhanvienController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Controllers\\nhanvienController.cs",
+              "RelativeToolTip": "Controllers\\nhanvienController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAqwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T05:12:30.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "hanghoaController.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Controllers\\hanghoaController.cs",
               "RelativeDocumentMoniker": "Controllers\\hanghoaController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Controllers\\hanghoaController.cs*",
-              "RelativeToolTip": "Controllers\\hanghoaController.cs*",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Controllers\\hanghoaController.cs",
+              "RelativeToolTip": "Controllers\\hanghoaController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAABIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T22:35:04.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "KhachHangController.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Controllers\\KhachHangController.cs",
               "RelativeDocumentMoniker": "Controllers\\KhachHangController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Controllers\\KhachHangController.cs",
-              "RelativeToolTip": "Controllers\\KhachHangController.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Controllers\\KhachHangController.cs*",
+              "RelativeToolTip": "Controllers\\KhachHangController.cs*",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAAH8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T19:27:52.315Z"
+              "WhenOpened": "2024-05-10T19:27:52.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -105,45 +123,47 @@
               "RelativeDocumentMoniker": "khachhangcontroller.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\khachhangcontroller.cs",
               "RelativeToolTip": "khachhangcontroller.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T19:21:06.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAwwBgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T19:13:34.476Z"
+              "WhenOpened": "2024-05-10T19:13:34.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "TblNhanVien.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Entities\\TblNhanVien.cs",
               "RelativeDocumentMoniker": "Entities\\TblNhanVien.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Entities\\TblNhanVien.cs",
               "RelativeToolTip": "Entities\\TblNhanVien.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBIAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBgAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T19:02:50.046Z"
+              "WhenOpened": "2024-05-10T19:02:50.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "TblKhuVuc.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Entities\\TblKhuVuc.cs",
               "RelativeDocumentMoniker": "Entities\\TblKhuVuc.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Entities\\TblKhuVuc.cs",
               "RelativeToolTip": "Entities\\TblKhuVuc.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T19:02:32.443Z"
+              "WhenOpened": "2024-05-10T19:02:32.443Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -155,23 +175,25 @@
               "RelativeToolTip": "Entities\\TblKhach.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T19:02:29.128Z"
+              "WhenOpened": "2024-05-10T19:02:29.128Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "TblHang.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Entities\\TblHang.cs",
               "RelativeDocumentMoniker": "Entities\\TblHang.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Entities\\TblHang.cs",
               "RelativeToolTip": "Entities\\TblHang.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T19:02:25.632Z"
+              "WhenOpened": "2024-05-10T19:02:25.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TblChatLieu.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Entities\\TblChatLieu.cs",
               "RelativeDocumentMoniker": "Entities\\TblChatLieu.cs",
@@ -179,11 +201,12 @@
               "RelativeToolTip": "Entities\\TblChatLieu.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T19:02:21.263Z"
+              "WhenOpened": "2024-05-10T19:02:21.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "DbAa8167Nguyenmanh1203Context.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\Entities\\DbAa8167Nguyenmanh1203Context.cs",
               "RelativeDocumentMoniker": "Entities\\DbAa8167Nguyenmanh1203Context.cs",
