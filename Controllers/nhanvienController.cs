@@ -28,7 +28,7 @@ namespace back_end_c_sharp_test_with_friend_.Controllers
         public IActionResult GetAllHead()
         {
             // Trả về một phản hồi chứa nội dung tùy chỉnh
-            return Ok();
+            return Ok("kết nối csdl thành công");
         }
     }
 }
