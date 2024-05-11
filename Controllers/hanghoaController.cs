@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using quan_ly_ban_hang.Entities;
-namespace back_end_c_sharp_test_with_friend_.Controllers
+namespace quan_ly_ban_hang.Controllers
 {
     
      [ApiController]
@@ -28,7 +28,7 @@ namespace back_end_c_sharp_test_with_friend_.Controllers
             var hang = await _context.TblHangs.Where(h => h.TenChatLieu == tenChatLieu).ToListAsync();
             if (hang == null || hang.Count == 0)
             {
-                return NotFound();
+                return NotFound("ko tồn tại tên chất liệu có trong csdl");
             }
             return hang;
         }
@@ -44,17 +44,17 @@ namespace back_end_c_sharp_test_with_friend_.Controllers
         [Route("Xoá Hàng hoá theo số Lượng")]
         public async Task<IActionResult> DeleteHang(int soLuong)
         {
-            var hanghoaList = await _context.TblHangs.Where(hh => hh.SoLuong == soLuong).ToListAsync();
+            var soluonglist = await _context.TblHangs.Where(hh => hh.SoLuong == soLuong).ToListAsync();
 
-            if (hanghoaList == null || hanghoaList.Count == 0)
+            if (soluonglist == null || soluonglist.Count == 0)
             {
-                return NotFound();
+                return NotFound("Xoá thất bại có thể do ko tồn tại hàng nào có số lượng như vậy vui lòng nhập lại");
             }
 
-            _context.TblHangs.RemoveRange(hanghoaList);
+            _context.TblHangs.RemoveRange(soluonglist);
             await _context.SaveChangesAsync();
 
-            return Ok();
+            return Ok("Xoá hàng Hoá thành công");
        
         }
 
@@ -65,7 +65,7 @@ namespace back_end_c_sharp_test_with_friend_.Controllers
 
             if (Mahang != hanghoa.MaHang)
             {
-                return BadRequest();
+                return BadRequest("vui lòng nhập lại 2 trường Mahang phải giống nhau ");
             }
 
             _context.Entry(hanghoa).State = EntityState.Modified;
@@ -77,7 +77,7 @@ namespace back_end_c_sharp_test_with_friend_.Controllers
             {
                 if (!makhachhangExists(Mahang))
                 {
-                    return NotFound();
+                    return NotFound("mã mặt hàng ko tồn tại");
                 }
                 else
                 {
