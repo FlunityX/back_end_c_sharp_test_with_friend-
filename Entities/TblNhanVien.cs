@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NSwag.Annotations;
+using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
@@ -19,6 +20,7 @@ public partial class TblNhanVien
     public DateTime? NgaySinh { get; set; }
 
     public int? MaKv { get; set; }
+
     [JsonIgnore]
     public virtual TblKhuVuc? MaKvNavigation { get; set; }
 }
