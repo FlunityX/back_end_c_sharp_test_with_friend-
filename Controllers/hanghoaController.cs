@@ -56,8 +56,7 @@ namespace quan_ly_ban_hang.Controllers
 
             return Ok("Xoá hàng Hoá thành công");
        
-        }
-
+        } 
         [HttpPut()]
         [Route("Cập nhật thông tin hàng hoá")]
         public async Task<IActionResult> UpdateKhachhang(string Mahang, TblHang hanghoa)

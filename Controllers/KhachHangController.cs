@@ -45,22 +45,6 @@ public class KhachHangController : ControllerBase
             return Ok(_context.TblKhaches.ToList());
         }
 
-    [HttpDelete]
-    [Route("Xoá khách hàng theo id")]
-    public async Task<IActionResult> DeleteKhachHang(string MaKhach)
-    {
-        var khachHang = await _context.TblKhaches.SingleOrDefaultAsync(kh => kh.MaKhach == MaKhach);
-
-        if (khachHang == null)
-        {
-            return NotFound("ko tồn tại mã khách hàng trên cơ sở dữ liệu , vui lòng nhập lại");
-        }
-
-        _context.TblKhaches.Remove(khachHang);
-        await _context.SaveChangesAsync();
-        return Ok("xoá khách hàng thành công");
-    }
-
     [HttpPut()]
     [Route("Cập nhật thông tin khách hàng")]
         public async Task<IActionResult> UpdateSKhachhang(string MaKhachhang,TblKhach khach)
