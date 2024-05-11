@@ -156,3 +156,4 @@ C:\Users\Administrator\Downloads\quan_ly_ban_hang\bin\Debug\net8.0\Microsoft.Asp
 C:\Users\Administrator\Downloads\quan_ly_ban_hang\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Administrator\Downloads\quan_ly_ban_hang\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\Administrator\Downloads\quan_ly_ban_hang\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Administrator\Downloads\quan_ly_ban_hang\bin\Debug\net8.0\NSwag.Annotations.dll
