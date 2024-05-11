@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zCBdM7K6pAHINwH24pTBxtxGkliLZPgqj21WFzPhI0Qjtj1ek6ClsGxgm2EJs5ejUBYs0ggFEDp3Q4+Zkx9mMQ==",
+  "dgSpecHash": "SubRE+sd+ciCH877JS6GMGTAl115CF5FUn95b4NcGlOXZHRS/aSXuOq8TzH6C6ZCVXUWXPE/wyKEB/9Y8TdPtw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\Downloads\\quan_ly_ban_hang\\back_end_c_sharp_test_with_friend-.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\nswag.annotations\\14.0.7\\nswag.annotations.14.0.7.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
