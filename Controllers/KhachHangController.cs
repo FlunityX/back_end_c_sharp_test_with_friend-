@@ -1,5 +1,6 @@
 ﻿
 using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.AspNetCore.JsonPatch.Operations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
@@ -113,7 +114,23 @@ public class KhachHangController : ControllerBase
 
         await _context.SaveChangesAsync();
 
-        return Ok();
+        // Trả về mã trạng thái HTTP phù hợp và thông báo tương ứng
+        if (khachPatchDocument.Operations.Any(op => op.OperationType == OperationType.Replace))
+        {
+            return Ok("Đã sửa 1 trường thông tin khách hàng");
+        }
+        else if (khachPatchDocument.Operations.Any(op => op.OperationType == OperationType.Add))
+        {
+            return Ok("Đã thêm 1 trường thông tin khách hàng");
+        }
+        else if (khachPatchDocument.Operations.Any(op => op.OperationType == OperationType.Remove))
+        {
+            return Ok("Đã xoá 1 trường thông tin khách hàng");
+        }
+        else
+        {
+            return Ok("Đã cập nhật thông tin khách hàng");
+        }
     }
 }
 
