@@ -22,10 +22,10 @@ namespace quan_ly_ban_hang.Controllers
             return Ok(_context.TblHangs.ToList());
         }
         [HttpGet]
-        [Route("Tìm kiếm hàng hoá theo tên chất liệu")]
-        public async Task<ActionResult<IEnumerable<TblHang>>> GetHANGHOA(string tenChatLieu)
+        [Route("Tìm kiếm hàng hoá theo tên hàng")]
+        public async Task<ActionResult<IEnumerable<TblHang>>> GetHANGHOA(string tenhang)
         {
-            var hang = await _context.TblHangs.Where(h => h.TenChatLieu == tenChatLieu).ToListAsync();
+            var hang = await _context.TblHangs.Where(h => h.TenHang == tenhang).ToListAsync();
             if (hang == null || hang.Count == 0)
             {
                 return NotFound("ko tồn tại tên chất liệu có trong csdl");
@@ -41,17 +41,17 @@ namespace quan_ly_ban_hang.Controllers
             return Ok(_context.TblHangs.ToList());
         }
         [HttpDelete]
-        [Route("Xoá Hàng hoá theo số Lượng")]
-        public async Task<IActionResult> DeleteHang(int soLuong)
+        [Route("Xoá Hàng hoá theo mã hàng")]
+        public async Task<IActionResult> DeleteHang(string tenhang)
         {
-            var soluonglist = await _context.TblHangs.Where(hh => hh.SoLuong == soLuong).ToListAsync();
+            var tenhanglist = await _context.TblHangs.Where(hh => hh.TenHang == tenhang).ToListAsync();
 
-            if (soluonglist == null || soluonglist.Count == 0)
+            if (tenhanglist == null || tenhanglist.Count == 0)
             {
-                return NotFound("Xoá thất bại có thể do ko tồn tại hàng nào có số lượng như vậy vui lòng nhập lại");
+                return NotFound("Xoá thất bại có thể do không tồn tại hàng nào có tên hàng như vậy vui lòng nhập lại");
             }
 
-            _context.TblHangs.RemoveRange(soluonglist);
+            _context.TblHangs.RemoveRange(tenhanglist);
             await _context.SaveChangesAsync();
 
             return Ok("Xoá hàng Hoá thành công");
