@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace back_end_c_sharp_test_with_friend_.Entities;
+namespace quan_ly_ban_hang.Entities;
 
 public partial class TblKhuVuc
 {
