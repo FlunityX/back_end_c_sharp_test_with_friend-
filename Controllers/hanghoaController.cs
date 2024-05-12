@@ -42,16 +42,16 @@ namespace quan_ly_ban_hang.Controllers
         }
         [HttpDelete]
         [Route("Xoá Hàng hoá theo mã hàng")]
-        public async Task<IActionResult> DeleteHang(string tenhang)
+        public async Task<IActionResult> DeleteHang(string mahang)
         {
-            var tenhanglist = await _context.TblHangs.Where(hh => hh.TenHang == tenhang).ToListAsync();
+            var mahanglist = await _context.TblHangs.Where(hh => hh.TenHang == mahang).ToListAsync();
 
-            if (tenhanglist == null || tenhanglist.Count == 0)
+            if (mahanglist == null || mahanglist.Count == 0)
             {
                 return NotFound("Xoá thất bại có thể do không tồn tại hàng nào có tên hàng như vậy vui lòng nhập lại");
             }
 
-            _context.TblHangs.RemoveRange(tenhanglist);
+            _context.TblHangs.RemoveRange(mahanglist);
             await _context.SaveChangesAsync();
 
             return Ok("Xoá hàng Hoá thành công");
